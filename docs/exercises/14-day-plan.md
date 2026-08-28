@@ -1,34 +1,33 @@
-# 14-Day Git Collaboration Plan
+# 14 天 Git 团队协作训练计划
 
-## Week 1 - Normal Flow And Core Mental Model
+## 第 1 周 - 正常流程和核心心智模型
 
-Day 01: Normal feature branch flow.
+第 1 天：正常功能分支流程。
 
-Day 02: Pull request update after review.
+第 2 天：收到 review 后更新 pull request。
 
-Day 03: Fetch, remote branches, and reading repository state.
+第 3 天：`fetch`、远端分支，以及读取仓库状态。
 
-Day 04: Merge conflict in one file.
+第 4 天：单文件 merge 冲突。
 
-Day 05: Rebase feature branch onto updated `main`.
+第 5 天：把功能分支 rebase 到最新的 `main` 上。
 
-Day 06: Stash and interrupted work.
+第 6 天：`stash` 和被打断的工作。
 
-Day 07: Weekly review and personal cheat sheet v1.
+第 7 天：周复盘，整理个人速查表 v1。
 
-## Week 2 - Recovery, History, And Team Reality
+## 第 2 周 - 事故恢复、提交历史和团队真实场景
 
-Day 08: Commit made on the wrong branch.
+第 8 天：commit 提交到了错误分支。
 
-Day 09: Amend, split, and squash commits.
+第 9 天：修改、拆分和合并 commit。
 
-Day 10: Interactive rebase before review.
+第 10 天：review 前使用 interactive rebase 整理历史。
 
-Day 11: Rebase conflict and abort/continue decisions.
+第 11 天：rebase 冲突，以及 `abort` / `continue` 判断。
 
-Day 12: Revert a merged change.
+第 12 天：回滚已经合并的变更。
 
-Day 13: CI failure after pull request update.
+第 13 天：pull request 更新后 CI 失败。
 
-Day 14: Final simulation: feature, conflict, rebase, review, cleanup, merge.
-
+第 14 天：最终模拟：功能开发、冲突、rebase、review、历史整理、合并。

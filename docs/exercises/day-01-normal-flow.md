@@ -1,26 +1,26 @@
-# Day 01 - Normal Feature Branch Flow
+# 第 1 天 - 正常功能分支流程
 
-## Concept
+## 核心概念
 
-Today is about the normal collaboration path:
+今天练的是最常见的团队协作路径：
 
 `main` -> feature branch -> commit -> push -> pull request -> merge.
 
-Before every operation, identify:
+每次操作前，先确认下面这些状态：
 
-- Current branch
-- Working tree state
-- Staged changes
-- Local commits not on remote
-- Remote branch you plan to push to
+- 当前在哪个分支
+- 工作区是否干净
+- 暂存区里有没有内容
+- 本地是否有还没有推送到远端的提交
+- 你准备推送到哪个远端分支
 
-## Scenario
+## 场景
 
-You joined a team and received a small task:
+你刚加入一个团队，拿到一个很小的需求：
 
-> Update the app copy so the status text welcomes a new teammate.
+> 修改页面默认文案，让状态文字欢迎一位新队友。
 
-## Commands To Practice
+## 本次练习命令
 
 - `git status`
 - `git branch`
@@ -31,30 +31,29 @@ You joined a team and received a small task:
 - `git remote -v`
 - `git push -u origin <branch>`
 
-## Task
+## 任务
 
-1. Confirm you are on `main`.
-2. Create a feature branch named `feature/welcome-copy`.
-3. Change the default status text in `src/index.html`.
-4. Commit with an English message.
-5. Inspect the commit graph.
-6. Push the branch to GitHub.
-7. Open a pull request.
-8. Record the session in `docs/logs/day-01.md`.
+1. 确认你当前在 `main` 分支。
+2. 创建一个名为 `feature/welcome-copy` 的功能分支。
+3. 修改 `src/index.html` 里的默认状态文字。
+4. 用英文提交信息创建一个 commit。
+5. 查看提交图，确认提交在正确的分支上。
+6. 把这个分支推送到 GitHub。
+7. 在 GitHub 上打开一个 pull request。
+8. 把本次练习记录到 `docs/logs/day-01.md`。
 
-## Stop And Explain
+## 停下来解释
 
-Before pushing, explain:
+推送之前，先回答：
 
-- What branch am I on?
-- What commit will be pushed?
-- What remote branch will be created?
-- Does this command change local history?
+- 我现在在哪个分支？
+- 哪个 commit 会被推送？
+- 远端会创建哪个分支？
+- 这条命令会不会改写本地历史？
 
-## Done When
+## 完成标准
 
-- The feature branch exists locally.
-- The branch is pushed to GitHub.
-- A pull request exists.
-- The log file records what happened.
-
+- 本地存在 `feature/welcome-copy` 分支。
+- 这个分支已经推送到 GitHub。
+- GitHub 上已经创建 pull request。
+- `docs/logs/day-01.md` 里记录了本次练习过程。
